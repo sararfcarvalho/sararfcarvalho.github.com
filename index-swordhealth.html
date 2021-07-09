@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+      <link rel="manifest" href="favicon/site.webmanifest">
+      <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+      <link rel="shortcut icon" href="favicon/favicon.ico">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="msapplication-config" content="favicon/browserconfig.xml">
+      <meta name="theme-color" content="#ffffff">
+      <title>Sara Carvalho, UI UX Designer</title>
+      <link href="base.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:400,500" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   </head>
+   <body>
+     <!-- sword modal -->
+     <div class="modal show" id="swordModal" style="background-color:rgba(365,365,365, .93)" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+       <div class="modal-dialog modal-dialog-centered" role="document">
+         <div class="modal-content">
+           <div class="text">
+             <h3 style="color:#ff585a">Sword Health,</h3>
+             <br>
+             <p style="color:#9ba9bb; font-size:16px;line-height:26px;max-width:700px;">
+               I want to help your team maximize engagement with your users and improve their experience, always trying to find the better solution to the problems on the road. 
+               <br>
+            </p>
+              <p style="color:#ff585a;">Welcome to my online portfolio!</p>
+              <button data-dismiss="modal" class="sword-btn"><span>Let's go</span></button>
+            </div>
+          </div>
+       </div>
+     </div>
+     <!-- sword modal -->
+
+     <div class="container">
+
+       <nav class="clearfix">
+         <a href="profile.html">Resume</a>
+       </nav>
+
+        <div class="profile row">
+
+           <div class="col-sm-6">
+             <div class="profile__photo">
+              <img src="img/me.png" alt="portrait">
+              <svg viewBox="0 0 178.78 255.68">
+                <path class="path" stroke="#fff" stroke-width="4" fill="transparent"  d="M155.33,233.33c7.5-11,24.77-61.33,18.27-104.33,0,0-19.9,24.5-52.7,8,0,0-14.8,2,2.2,35,0,0,5,10.5-13.5,8a7.28,7.28,0,0,1-8.5-.3s-13,6-15-2.7c0,0-19,19.2-12.3,30.3l28.3-13,3.3,3.3,6.7-3.3s21.3,7.7,25.3,6.3c0,0,2.7,5.3-30.3,5,0,0-9-2.3-25.3,5.3,0,0,10.3,12,38.3,5,0,0,19.7,43.7-30,35s-64.3-46-64.3-46S11,220.3,6,188c0,0,12.2-66.7,15.3-81.3C23.8,95.5,45,33,112,46L102.8,5.3,116.3,48s53.7,24.7,41,65c0,0-5-6.7-36.3,10.3,0,0-6.9-4.1-8.7-6-4.5-4.7-7.2-22.3-13.7-22s-10,23.7-10,23.7S52,104.5,33.3,123c0,0,51.5-1.5,48.7,13.7,0,0-8.5,16.5-43.3,3.3,0,0,13.3-14.3,30-9.7,0,0-2.2,12.2,5.7,9.7s2.2-11.4-3.3-5.7"/></svg>
+              </div>
+           </div>
+
+           <div class="col-sm-6">
+             <div class="profile__intro-wrap">
+               <div class="profile__intro">
+                 <h1 class="big-title">A designer who codes?</h1>
+                 <br>
+                 <h3 class="text">Yes, it's possible.
+                   Hello, I'm Sara from Porto, a UI UX Designer & Frontend Developer.
+                 </h3>
+               </div>
+             </div>
+           </div>
+
+        </div>
+
+        <div class="section">
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#design">Design</a></li>
+            <li><a data-toggle="tab" href="#frontend">Frontend</a></li>
+          </ul>
+
+        <div class="tab-content">
+          <div id="design" class="tab-pane fade in active">
+
+            <div class="projects-list">
+              <!-- begin one proj -->
+              <div class="projects-list__el" data-aos="fade-up" onclick="window.location.href='detail-1.html'">
+                <div class="project-card row">
+                  <div class="col-sm-6">
+                    <div class="project-card__image">
+                      <div class="project-card__image-bg" data-tilt data-tilt-max="5" data-tilt-speed="1000" style="background-image:url(img/cor-bg.svg)">
+                        <img class="project-card__mockup" src="img/mockup-mobile2.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="project-card__caption">
+                      <div class="project-card__info">
+                        <h3 class="bg-text">Sprint <br>Reader</h3>
+                        <h3 class="title">SprintReader</h3>
+                        <p class="text text--regular">UI UX Design</p>
+                        <p class="smaller-text">2019</p>
+                        <a class="link" href="detail-1.html">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end one proj -->
+
+              <!-- begin one proj -->
+              <div class="projects-list__el" data-aos="fade-up" onclick="window.location.href='detail-3.html'">
+                <div class="project-card row">
+                  <div class="col-sm-6 right">
+                    <div class="project-card__image">
+                      <div class="project-card__image-bg" data-tilt data-tilt-max="5" data-tilt-speed="1000" style="background-image:url(img/cor-bg.svg)">
+                        <img class="project-card__mockup" src="img/config-browser.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="project-card__caption align-right">
+                      <div class="project-card__info">
+                        <h3 class="bg-text">Car</h3>
+                        <h3 class="title">Car Configurator</h3>
+                        <p class="text text--regular">UI UX Design</p>
+                        <p class="smaller-text">2019</p>
+                        <a class="link" href="detail-3.html">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end one proj -->
+
+              <!-- begin one proj -->
+              <div class="projects-list__el" data-aos="fade-up" onclick="window.location.href='detail-2.html'">
+                <div class="project-card row">
+                  <div class="col-sm-6">
+                    <div class="project-card__image">
+                      <div class="project-card__image-bg" data-tilt data-tilt-max="5" data-tilt-speed="1000" style="background-image:url(img/cor-bg.svg)">
+                        <img class="project-card__mockup" src="img/2mockups.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="project-card__caption align-right">
+                      <div class="project-card__info">
+                        <h3 class="bg-text">CIEIFM</h3>
+                        <h3 class="title">CIEIFM</h3>
+                        <p class="text text--regular">UI UX Design / Frontend Developer</p>
+                        <p class="smaller-text">2019</p>
+                        <a class="link" href="detail-2.html">ver mais</a>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <!-- end one proj -->
+            </div>
+
+          </div>
+
+          <div id="frontend" class="tab-pane fade">
+            <ul class="websites-list" data-aos="fade-up">
+              <li  data-aos="fade-up">
+                <h4 class="bg-text">Adalberto</h4>
+                <a class="title" href="http://www.adalberto.pt/" target="_blank">Adalberto</a>
+                <!-- <img src="img/frontend/adalberto.png" alt="adalberto website mockup"> -->
+              </li>
+              <li  data-aos="fade-up">
+                <h4 class="bg-text">Castro Lighting</h4>
+                <a class="title" href="https://castrolighting.com/" target="_blank">Castro Lighting</a>
+                <!-- <img src="img/frontend/castro.png" alt=""> -->
+              </li>
+              <li  data-aos="fade-up">
+                <h4 class="bg-text">Portugal Rotário</h4>
+                <a class="title" href="https://www.rotaryportugal.org/" target="_blank">Portugal Rotário</a>
+                <!-- <img src="img/frontend/rotary.png" alt=""> -->
+              </li>
+              <li  data-aos="fade-up">
+                <h4 class="bg-text">Mais Fit</h4>
+                <a class="title" href="https://www.maisfit.pt/" target="_blank">Mais fit</a>
+                <!-- <img src="img/frontend/maisfit.png" alt=""> -->
+              </li>
+              <li  data-aos="fade-up">
+                <h4 class="bg-text">Arca das Festas</h4>
+                <a class="title" href="http://www.arcadasfestas.pt/" target="_blank">Arca das Festas</a>
+                <!-- <img src="img/frontend/festas.png" alt=""> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+
+        <footer class="footer">
+
+          <div class="row">
+            <div class="col-sm-3 col-md-4">
+            <h6 class="footer__name">Sara Carvalho</h6>
+            </div>
+            <div class="col-sm-9 col-md-8">
+              <a class="footer__link" href="mailto:sararfcarvalho@gmail.com">Email</a>
+              <a class="footer__link" href="https://www.linkedin.com/in/srfcarvalho/" target="_blank">Linkedin</a>
+              <a class="footer__link" href="https://www.behance.net/srfc" target="_blank">Behance</a>
+            </div>
+          </div>
+
+        </footer>
+
+    </div>
+<a style="display:none" target="_blank" href="https://www.zaask.pt/user/olasouasara"><img src="https://www.zaask.pt/undefined" alt="" /></a>
+   </body>
+</html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+  <script>
+    AOS.init();
+
+    $(function () {
+        $(".sword-btn").on('click', function() {
+            $('#swordModal').removeClass('show');
+        });
+    });
+
+  </script>
