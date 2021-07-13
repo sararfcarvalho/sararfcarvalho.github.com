@@ -12,7 +12,7 @@
       <meta name="msapplication-TileColor" content="#da532c">
       <meta name="msapplication-config" content="favicon/browserconfig.xml">
       <meta name="theme-color" content="#ffffff">
-      <title>Sara Carvalho, UI UX Designer</title>
+      <title>Sara Carvalho, UX Designer</title>
       <link href="base.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,500" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
@@ -42,10 +42,13 @@
            <div class="col-sm-6">
              <div class="profile__intro-wrap">
                <div class="profile__intro">
-                 <h1 class="big-title">A designer who codes?</h1>
+                 <h1 class="big-title">Hello, I'm Sara.</h1>
                  <br>
-                 <h3 class="text">Yes, it's possible.
-                   Hello, I'm Sara from Porto, I've been a frontend developer for two years, and as the planet changes, so do I. I just now finished the UI/UX design course at EDIT, and I’m ready for new challenges in the UI UX design world.
+                 <h3 class="text">
+                   I have been a frontend developer for 3 years, and since last year I am working as an User Experience Designer.
+                   <br>Nowadays I am the UxD lead for a Building Management System. I am responsible for defining the usability backlog, making changes wherever are needed based on users feedback and my/team analysis.
+                   <br>I work directly with the Product Owner defining the user stories, the flows, making mockups and prototypes. Also responsible for design specification and assets for development.
+                   Off work I am writing a series of articles about Usability Heuristics.
                  </h3>
                </div>
              </div>
@@ -63,6 +66,30 @@
           <div id="design" class="tab-pane fade in active">
 
             <div class="projects-list">
+              <!-- begin one proj -->
+              <div class="projects-list__el" data-aos="fade-up" onclick="window.location.href='detail-4.html'">
+                <div class="project-card row">
+                  <div class="col-sm-6">
+                    <div class="project-card__caption">
+                      <div class="project-card__info">
+                        <h3 class="bg-text">Home <br>Automation</h3>
+                        <h3 class="title">Home automation</h3>
+                        <p class="text text--regular">Case study</p>
+                        <p class="smaller-text">2019</p>
+                        <a class="link" href="detail-4.html">see more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="project-card__image">
+                      <div class="project-card__image-bg" data-tilt data-tilt-max="5" data-tilt-speed="1000" style="background-image:url(img/cor-bg.svg)">
+                        <img class="project-card__mockup" src="img/mockup2-automation.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- end one proj -->
               <!-- begin one proj -->
               <div class="projects-list__el" data-aos="fade-up" onclick="window.location.href='detail-1.html'">
                 <div class="project-card row">
@@ -156,11 +183,6 @@
                 <!-- <img src="img/frontend/castro.png" alt=""> -->
               </li>
               <li  data-aos="fade-up">
-                <h4 class="bg-text">Portugal Rotário</h4>
-                <a class="title" href="https://www.rotaryportugal.org/" target="_blank">Portugal Rotário</a>
-                <!-- <img src="img/frontend/rotary.png" alt=""> -->
-              </li>
-              <li  data-aos="fade-up">
                 <h4 class="bg-text">Mais Fit</h4>
                 <a class="title" href="https://www.maisfit.pt/" target="_blank">Mais fit</a>
                 <!-- <img src="img/frontend/maisfit.png" alt=""> -->
@@ -185,27 +207,19 @@
             <div class="col-sm-9 col-md-8">
               <a class="footer__link" href="mailto:sararfcarvalho@gmail.com">Email</a>
               <a class="footer__link" href="https://www.linkedin.com/in/srfcarvalho/" target="_blank">Linkedin</a>
-              <a class="footer__link" href="https://www.behance.net/srfc" target="_blank">Behance</a>
+              <a class="footer__link" href="https://medium.com/@sararfcarvalho" target="_blank">Medium</a>
             </div>
           </div>
 
         </footer>
 
     </div>
-<a style="display:none" target="_blank" href="https://www.zaask.pt/user/olasouasara"><img src="https://www.zaask.pt/undefined" alt="" /></a>
    </body>
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-  <script>
-    AOS.init();
-
-    $(function () {
-        $(".sword-btn").on('click', function() {
-            $('#swordModal').removeClass('show');
-        });
-    });
-
-  </script>
+<script>
+AOS.init();
+</script>

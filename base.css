@@ -357,6 +357,16 @@ nav a::after{
   margin-bottom:30px;
   box-shadow: 0px 5px 5px rgba(0,0,0, .25);
 }
+.img-solo{
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+@media (min-width: 768px) {
+  .img-solo{
+    width: 35%;
+  }
+}
 .photo-bottom,
 .photo{
   width: 100%;
@@ -858,25 +868,29 @@ ul li{
   line-height: 35px;
   color: #a6c0fe;
   font-size: 14px;
-  transition: .3s all ease-in;
+  transition: max-width .3s ease-in;
 }
 .link:hover{
   color: #3562E8;
   text-decoration: none;
 }
 .link-download__hidden{
+  opacity: 0;
   display: none;
   position: relative;
   color: white;
   font-size: 16px;
   padding: 0 5px;
+  transition: opacity 1s ease-in;
 }
 .link-download:hover{
-  width: auto;
+  max-width: 170px;
   text-decoration: none;
 }
 .link-download:hover .link-download__hidden{
   display: inline-block;
+  opacity: 1;
+  transition: opacity 1s ease-in;
 }
 @media (max-width: 768px) {
   .link-download{
@@ -891,13 +905,14 @@ ul li{
   top:0;
   bottom:0;
   right:10px;
-  width: 44px;
+  max-width: 44px;
   height: 44px;
   line-height: 44px;
   text-align: center;
   display: block;
   background: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   border-radius: 4px;
+  transition: max-width .3s ease-in;
 }
 .top-banner img{
   position: absolute;
