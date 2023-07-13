@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
    <head>
       <meta charset="utf-8">
-      <title>Sara Carvalho, UI UX Designer</title>
+      <title>Sara Carvalho, Product Designer</title>
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
       <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -14,24 +14,32 @@
       <meta name="msapplication-config" content="favicon/browserconfig.xml">
       <meta name="theme-color" content="#ffffff">
       <link href="base.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Poppins:400,600" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
    </head>
    <body>
+  <div style="position: relative;z-index:2;margin: 100px 0 330px; background-color:#EFF7F7;">  
+
+    <nav>
+      <a class="logo" href="index.html"><img src="img/logo.png" alt=""></a>
+      <div class="menu">
+        <a class="active" href="profile.html">Resume</a>
+        <a href="index.html#what">What</a>
+        <a href="who.html">Who</a>
+      </div>
+    </nav>
 
      <div class="container">
 
-      <nav class="clearfix">
-        <a href="index.html">back</a>
-      </nav>
-
        <div class="section">
+
          <a class="link link-download" target="_blank" href="img/CV_SaraCarvalho.pdf">
-           <img class="icon-download" src="img/002-cloud.svg" alt="cv">
-           <span class="link-download__hidden">Download PDF</span>
+           <span class="">Download PDF</span>
          </a>
+        
          <div class="content row">
            <div class="col-sm-3 col-md-4">
              <h3 class="subtitle">Personal information</h3>
@@ -39,6 +47,7 @@
            <div class="col-sm-9 col-md-8">
              <p class="text">Sara Carvalho</p>
              <p class="text">Braga, Portugal</p>
+             <br>
              <p class="text">sararfcarvalho@gmail.com</p>
              <p class="text">+351 926 896 554</p>
            </div>
@@ -119,35 +128,37 @@
          </div>
        </div>
      </div>
-     <div class="content row">
-       <div class="col-sm-3 col-md-4">
-         <h3 class="subtitle">Hobbies</h3>
-       </div>
-       <div class="col-sm-9 col-md-8 text">
-        <p><span>Watching</span> Ozark</p>
-        <p><span>Reading</span> Outlander</p>
-        <p><span>Listening</span> Ibeyi</p>
-        <p><span>Practicing</span> Yoga</p>
-        <p><span>Learning</span> Macrame</p>
-       </div>
-     </div>
+     
+    </div>
 
-     <footer class="footer">
+    </div>
+  </div>
 
-       <div class="row">
-         <div class="col-sm-3 col-md-4">
-         <h6 class="footer__name">Sara Carvalho</h6>
-         </div>
-         <div class="col-sm-9 col-md-8">
-           <a class="footer__link" href="mailto:sararfcarvalho@gmail.com">Email</a>
-           <a class="footer__link" href="https://www.linkedin.com/in/srfcarvalho/" target="_blank">Linkedin</a>
-           <a class="footer__link" href="https://medium.com/@sararfcarvalho" target="_blank">Medium</a>
-         </div>
-       </div>
 
-     </footer>
+  <footer class="footer">
 
-     </div>
+    <div class="container">
+
+      <h6 class="footer__name">Sara Carvalho</h6>
+      <p class="footer__mail">sararfcarvalho@gmail.com</p>
+
+      <div class="row footer__links">
+  
+        <div class="col-sm-9 col-md-6">
+          <a class="footer__link" href="mailto:sararfcarvalho@gmail.com">Email</a>
+          <a class="footer__link" href="https://www.linkedin.com/in/srfcarvalho/" target="_blank">Linkedin</a>
+          <a class="footer__link" href="https://medium.com/@sararfcarvalho" target="_blank">Medium</a>
+        </div>
+
+        <div class="col-sm-3 col-md-6">
+          <h6 class="to-right">This website is hand crafted with care, treat it with respect.</h6>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
 
    </body>
 </html>
