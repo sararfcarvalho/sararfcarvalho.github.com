@@ -281,6 +281,11 @@ h1, h2, h3 {
   display: inline-block;
   height: 260px;
 }
+@media (max-width: 1200px) {
+  .profile-gallery li{
+    height: 200px;
+  }
+}
 @media (max-width: 992px) {
   .profile-gallery li{
     height: 190px;
@@ -288,7 +293,12 @@ h1, h2, h3 {
 }
 @media (max-width: 762px) {
   .profile-gallery li{
-    height: 90px;
+    height: 160px;
+  }
+}
+@media (max-width: 500px) {
+  .profile-gallery li{
+    height: 100px;
   }
 }
 .profile-gallery li div{
@@ -321,7 +331,7 @@ nav .logo{
     right: 16px;
   }
   nav .logo{
-    width: 75px;
+    width: 85px;
   }
 }
 
@@ -487,6 +497,9 @@ nav a::after{
   background-repeat: no-repeat;
   background-origin: content-box;
 }
+.home-banner .big-title{
+  font-family: 'Gloria Hallelujah', cursive; 
+}
 
 .big-title{
   position: relative;
@@ -494,24 +507,29 @@ nav a::after{
   text-align: center;
   margin: auto;
   max-width: 80%;
-  font-size: 1.4rem;
-  line-height: 1.8rem;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
   color: #065B5A;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 @media (min-width: 700px) {
   .big-title{
     max-width: 60%;
     font-size: 2rem;
-    line-height: 2.4rem;
+    line-height: 2.6rem;
   }
 }
 @media (min-width: 1024px) {
   .big-title{
-    max-width: 40%;
+    max-width: 60%;
     font-size: 2.6rem;
     line-height: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .big-title{
+    max-width: 40%;
   }
 }
 .big-title a{
@@ -523,9 +541,12 @@ nav a::after{
   color: #E20813;
 }
 
-.home-banner a.who:hover::after,
-.home-banner a.what:hover::after{
-  display: block;
+@media (min-width: 912px) {
+
+  .home-banner a.who:hover::after,
+  .home-banner a.what:hover::after{
+    display: block;
+  }
 }
 
 .home-banner a.what::after{
@@ -541,7 +562,7 @@ nav a::after{
   content: url(img/who.gif);
   display: none;
   position: absolute;
-  bottom: -15%;
+  bottom: 15%;
   right: -15%;
   z-index: 1;
 }
@@ -605,6 +626,12 @@ nav a::after{
   line-height: 1.4rem;
   font-weight: 400;
 }
+@media (max-width: 768px) { 
+  .subtitle{
+    margin-bottom: 16px !important;
+  }
+}
+
 .big-text{
   font-size: 1.1rem;
   line-height: 1.8rem;
@@ -1062,7 +1089,7 @@ ul{
   padding-left: 0;
 }
 ul li{
-  margin-bottom: 15px;
+  margin-bottom: 16px;
 }
 .video{
 }
@@ -1336,5 +1363,12 @@ ul li{
 @media (min-width: 768px) {
   .right{
     float: right !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-xs-4{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
   }
 }
