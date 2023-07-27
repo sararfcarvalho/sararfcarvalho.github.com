@@ -1142,6 +1142,7 @@ ul li{
 }
 
 .link-download{
+  z-index: 1;
   display: block;
   padding: 0 16px;
   position: fixed;
