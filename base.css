@@ -190,7 +190,7 @@ h1, h2, h3 {
   }
 }
 .project-card__info .year{
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-top: 24px;
   font-family: 'Roboto Mono', monospace;
 }
