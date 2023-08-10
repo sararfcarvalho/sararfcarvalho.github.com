@@ -13,6 +13,38 @@ h1, h2, h3 {
 }
 
 
+svg{
+  max-width: 100%;
+  opacity: .5;
+}
+
+.content-area{
+  margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .content-area-grey,
+  .content-area{
+    margin-bottom: 40px;
+  }
+}
+
+.content-area-grey{
+  margin-bottom: 60px;
+  background-color: white;
+  padding: 16px 16px 1px 16px;
+}
+.content-big-title{
+  margin-bottom: 24px !important;
+}
+
+.content-title{
+  font-weight: 600;
+  margin-top: 0;;
+}
+video{
+  max-width: 100%;
+  width: 100%;
+}
 
 #plataformeModal .modal-content{
   background-color: #392fa0;
@@ -147,12 +179,12 @@ h1, h2, h3 {
     padding: 10px 20px;
 }
 .container--shrink{
-  max-width: 800px;
+  max-width: 650px;
   margin: auto;
 }
 @media (min-width: 1400px) {
   .container--shrink{
-    max-width: 900px;
+    max-width: 750px;
   }
 }
 .project-card:hover .title{
@@ -175,8 +207,8 @@ h1, h2, h3 {
 }
 
 .project-card__caption{
-  bottom: 100px;
-  right: 0;
+  bottom: 180px;
+ left: 15%;
   z-index: 1;
   position: absolute;
 }
@@ -200,7 +232,7 @@ h1, h2, h3 {
 }
 .project-card__info .title{
   margin-bottom: 8px !important;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #010F0F;
   transition: 1s all ease-in;
 }
@@ -384,9 +416,17 @@ nav a::after{
 .img{
   width: 100%;
   height: auto;
-  margin-top:30px;
-  margin-bottom:30px;
+  /* margin-top:30px; 
+  margin-bottom:30px; */
   box-shadow: 0px 5px 5px rgba(0,0,0, .25);
+}
+@media (min-width: 768px) {
+  .img{
+   /* 
+    margin-top:60px;
+    margin-bottom:60px; 
+    */
+  }
 }
 .img-solo{
   display: block;
@@ -417,12 +457,7 @@ nav a::after{
     margin:0 0 60px !important;
   }
 }
-@media (min-width: 768px) {
-  .img{
-    margin-top:60px;
-    margin-bottom:60px;
-  }
-}
+
 .img-2{
   width: 45%;
   float: left;
@@ -506,39 +541,50 @@ nav a::after{
   z-index: 3;
   text-align: center;
   margin: auto;
-  max-width: 80%;
+  max-width: 50%;
   font-size: 1.6rem;
-  line-height: 2.1rem;
+  line-height: 2.3rem;
   color: #065B5A;
   /* text-transform: uppercase; */
 }
 
 @media (min-width: 700px) {
   .big-title{
-    max-width: 60%;
+    max-width: 40%;
     font-size: 2rem;
-    line-height: 2.6rem;
+    line-height: 2.8rem;
   }
 }
 @media (min-width: 1024px) {
   .big-title{
-    max-width: 60%;
+    max-width: 35%;
     font-size: 2.6rem;
-    line-height: 3rem;
+    line-height: 3.4rem;
   }
 }
 @media (min-width: 1200px) {
   .big-title{
-    max-width: 40%;
+    max-width: 30%;
+  }
+}
+@media (min-width: 1900px) {
+  .big-title{
+    max-width: 25%;
   }
 }
 .big-title a{
   text-decoration: underline;
+  
   color: inherit;
   position: relative;
 }
 .big-title a:hover{
   color: #E20813;
+  text-decoration: underline;
+}
+.home-banner a.who,
+.home-banner a.what{
+  color:  #E20813;
 }
 
 @media (min-width: 912px) {
@@ -619,12 +665,20 @@ nav a::after{
 }
 
 .subtitle{
-  color: #065B5A;
+  
   margin-top:0;
-  margin-bottom:0;
-  font-size: 1rem;
+  margin-bottom:12px !important;
+  /* font-size: 1.2rem;
   line-height: 1.4rem;
-  font-weight: 400;
+  font-weight: 400; */
+
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.subtitle--lighter{
+  color: #EB6017;
 }
 @media (max-width: 768px) { 
   .subtitle{
@@ -641,8 +695,8 @@ nav a::after{
 }
 .title{
   font-weight: 500;
-  font-size: 28px;
-  letter-spacing: 1px;
+  font-size: 1.5rem;
+  color: #065B5A;
 }
 .bg-text {
     -webkit-transform: translate(-15%, -40%);
@@ -677,6 +731,7 @@ nav a::after{
 .text--big{  
   font-size: 2rem!important;
   line-height: 2.1rem !important;
+  color: #065B5A !important;
 }
 .text--medium{  
   font-size: 1.3rem!important;
@@ -753,6 +808,7 @@ nav a::after{
 }
 .section__header .title{
   font-size: 2rem;
+  line-height: 2.7rem;
 }
 
 @media (min-width: 1200px) {
@@ -833,8 +889,8 @@ nav a::after{
 }
 .profile__likes{
   text-align: center;
-  border-top: 1px solid #8c8c8c;
-  border-bottom: 1px solid #8c8c8c;
+  /* border-top: 1px solid #8c8c8c;
+  border-bottom: 1px solid #8c8c8c; */
   margin-bottom: 120px;
 }
 @media (max-width: 768px) {
@@ -845,7 +901,7 @@ nav a::after{
 
 .profile__likes p, .profile__likes a{
   margin: 10px 0;
-  color: #141414;
+  color: #065B5A;
 }
 .profile__likes a:hover{
   text-decoration: underline;
@@ -1162,9 +1218,6 @@ ul li{
 
 .topics{
   margin-bottom: 60px;
-  border-top: 1px solid #065B5A;
-  border-bottom: 1px solid #065B5A;
-  padding: 16px 0;
 }
 @media (max-width: 768px) {
   .topics{
@@ -1179,7 +1232,8 @@ ul li{
 }
 .topics span{
   text-transform: uppercase;
-  font-weight: 800;
+  font-weight: 700;
+  font-size: .9rem;
 }
 
 .banner-img{
@@ -1188,6 +1242,9 @@ ul li{
   height: auto;
   max-height: 440px;
   display: block;
+}
+.mockup{
+  box-shadow: 0px 1px 10px 0px;
 }
 
 .top-banner img{
