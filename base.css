@@ -641,7 +641,7 @@ nav a::after{
   position: relative;
 }
 .big-title a:hover{
-  color: #eb6016;
+  color: #E20813 !important;
   text-decoration: underline;
 }
 .home-banner a.who,
