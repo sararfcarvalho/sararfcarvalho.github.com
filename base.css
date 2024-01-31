@@ -15,14 +15,14 @@ h1, h2, h3 {
 .body{
   position: relative;
   z-index:2;
-  margin-bottom:310px; 
+  margin-bottom:310px;
   background-color:#EFF7F7;
   padding: 0 0 50px 0;
 }
 
 @media (max-width: 768px) {
   .body{
-    margin-bottom:260px; 
+    margin-bottom:260px;
   }
 }
 
@@ -49,7 +49,7 @@ h1, h2, h3 {
 
 svg{
   max-width: 100%;
-  
+
 }
 
 .content-area{
@@ -460,7 +460,7 @@ nav .menu a:hover, nav .menu a:active, nav .menu .active{
 
 /*
 nav a:hover::after{
-   height: 45px; 
+   height: 45px;
 }
 nav a::after{
   content: '';
@@ -478,15 +478,15 @@ nav a::after{
 .img{
   width: 100%;
   height: auto;
-  /* margin-top:30px; 
+  /* margin-top:30px;
   margin-bottom:30px; */
   box-shadow: 0px 5px 5px rgba(0,0,0, .25);
 }
 @media (min-width: 768px) {
   .img{
-   /* 
+   /*
     margin-top:60px;
-    margin-bottom:60px; 
+    margin-bottom:60px;
     */
   }
 }
@@ -547,42 +547,42 @@ nav a::after{
   right: 0;
 }
 
-@media (min-width: 781px) { 
+@media (min-width: 781px) {
   .home-banner::after{
     height: 40vh;
   }
 }
-@media (min-width: 820px) { 
+@media (min-width: 820px) {
   .home-banner::after{
     height: 45vh;
   }
 }
-@media (min-width: 1000px) { 
+@media (min-width: 1000px) {
   .home-banner::after{
     height: 25vh;
   }
 }
-@media (min-width: 1250px) { 
+@media (min-width: 1250px) {
   .home-banner::after{
     height: 10vh;
   }
 }
-@media (min-width: 1600px) { 
+@media (min-width: 1600px) {
   .home-banner::after{
     height: 5vh;
   }
 }
-@media (min-width: 1700px) { 
+@media (min-width: 1700px) {
   .home-banner::after{
     height: -20vh;
   }
 }
-@media (min-width: 1900px) { 
+@media (min-width: 1900px) {
   .home-banner::after{
     height: -25vh;
   }
 }
-@media (min-width: 2100px) { 
+@media (min-width: 2100px) {
   .home-banner::after{
     height: -30vh;
   }
@@ -595,7 +595,7 @@ nav a::after{
   background-origin: content-box;
 }
 .home-banner .big-title{
-  font-family: 'Gloria Hallelujah', cursive; 
+  font-family: 'Gloria Hallelujah', cursive;
 }
 
 .big-title{
@@ -636,7 +636,7 @@ nav a::after{
 }
 .big-title a{
   text-decoration: underline;
-  
+
   color: inherit;
   position: relative;
 }
@@ -684,55 +684,60 @@ nav a::after{
 }
 
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
   .home-banner img{
     top: 40vh;
   }
 }
-@media (min-width: 820px) { 
+@media (min-width: 820px) {
   .home-banner img{
     top: 45vh;
   }
 }
 
-@media (min-width: 1000px) { 
+@media (min-width: 1000px) {
   .home-banner img{
     top: 15vh;
   }
 }
-@media (min-width: 1250px) { 
+@media (min-width: 1250px) {
   .home-banner img{
     top: -5vh;
   }
 }
-@media (min-width: 1600px) { 
+@media (min-width: 1350px) {
   .home-banner img{
     top: -10vh;
   }
 }
-@media (min-width: 1700px) { 
+@media (min-width: 1600px) {
+  .home-banner img{
+    top: -10vh;
+  }
+}
+@media (min-width: 1700px) {
   .home-banner img{
     top: -30vh;
   }
 }
-@media (min-width: 1900px) { 
+@media (min-width: 1900px) {
   .home-banner img{
     top: -40vh;
   }
 }
-@media (min-width: 2100px) { 
+@media (min-width: 2100px) {
   .home-banner img{
     top: -50vh;
   }
 }
-@media (min-width: 2200px) { 
+@media (min-width: 2200px) {
   .home-banner img{
     top: -60vh;
   }
 }
 
 .subtitle{
-  
+
   margin-top:0;
   margin-bottom:12px !important;
   /* font-size: 1.2rem;
@@ -747,7 +752,7 @@ nav a::after{
 .orange{
   color: #EB6017;
 }
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
   .subtitle{
     margin-bottom: 16px !important;
   }
@@ -802,12 +807,12 @@ nav a::after{
     }
 }
 
-.text--big{  
+.text--big{
   font-size: 2rem!important;
   line-height: 2.1rem !important;
   color: #065B5A !important;
 }
-.text--medium{  
+.text--medium{
   font-size: 1.3rem!important;
   line-height: 1.6rem !important;
 }
@@ -849,6 +854,11 @@ nav a::after{
     margin-bottom: 60px;
   }
 }
+.bottom-0{
+  margin-bottom: 0!important;
+
+}
+
 .section__header{
   position: relative;
   text-align: center;
@@ -988,7 +998,7 @@ nav a::after{
 
 @media (min-width: 768px) {
 
-    
+
   .profile__likes p{
     display: inline-block;
     width: 33%;
@@ -1172,7 +1182,7 @@ color: #3562E8;
 
 @media (max-width: 768px) {
   .footer{
-    padding:40px 0 20px; 
+    padding:40px 0 20px;
   }
 }
 .to-right{
@@ -1180,7 +1190,7 @@ color: #3562E8;
 }
 
 @media (max-width: 768px) {
-  
+
   .footer__name{
     font-size: 1.3rem !important;
     margin: 0 0 8px;
@@ -1331,7 +1341,7 @@ ul li{
 }
 .top-banner{
   position: absolute;
-  top: calc(100vh - 441px);  
+  top: calc(100vh - 441px);
   left: 0;
   right: 0;
   width: 100%;
